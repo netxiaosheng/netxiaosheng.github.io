@@ -3,17 +3,26 @@
 <head>
   <meta charset="utf-8">
   
-  <title>今天开博客 | Hexo</title>
+  <title>GitHub和Hexo搭建免费静态Blog基础教程 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="我只是实验一下,不要激动哈!以后坚持写就好了，每篇文章都会随时更改的。这只是个开始">
+  <meta name="description" content="先大体写一下步骤，博客也是今天刚搭建的，什么的都没有，就是想改掉自己延的的毛病，废话不多说了。教程如下：
+第一部分  本地建设
+1、安装GIT2、安装 Node.js  (因为HEXO是NODE.js写的)
+  ps：因为要用到 npm命令  所以看看是在环境变量里有 npm命令     如果没有，在Path目录下加入 ;D:\Program Files\nodejs\node_modules\n">
 <meta property="og:type" content="article">
-<meta property="og:title" content="今天开博客">
-<meta property="og:url" content="http://yoursite.com/2015/03/21/今天开博客/index.html">
+<meta property="og:title" content="GitHub和Hexo搭建免费静态Blog基础教程">
+<meta property="og:url" content="http://yoursite.com/2015/03/21/GitHub和Hexo搭建免费静态Blog基础教程/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="我只是实验一下,不要激动哈!以后坚持写就好了，每篇文章都会随时更改的。这只是个开始">
+<meta property="og:description" content="先大体写一下步骤，博客也是今天刚搭建的，什么的都没有，就是想改掉自己延的的毛病，废话不多说了。教程如下：
+第一部分  本地建设
+1、安装GIT2、安装 Node.js  (因为HEXO是NODE.js写的)
+  ps：因为要用到 npm命令  所以看看是在环境变量里有 npm命令     如果没有，在Path目录下加入 ;D:\Program Files\nodejs\node_modules\n">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="今天开博客">
-<meta name="twitter:description" content="我只是实验一下,不要激动哈!以后坚持写就好了，每篇文章都会随时更改的。这只是个开始">
+<meta name="twitter:title" content="GitHub和Hexo搭建免费静态Blog基础教程">
+<meta name="twitter:description" content="先大体写一下步骤，博客也是今天刚搭建的，什么的都没有，就是想改掉自己延的的毛病，废话不多说了。教程如下：
+第一部分  本地建设
+1、安装GIT2、安装 Node.js  (因为HEXO是NODE.js写的)
+  ps：因为要用到 npm命令  所以看看是在环境变量里有 npm命令     如果没有，在Path目录下加入 ;D:\Program Files\nodejs\node_modules\n">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -189,11 +198,11 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap"><article id="post-今天开博客" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-GitHub和Hexo搭建免费静态Blog基础教程" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2015/03/21/今天开博客/" class="article-date">
-  	<time datetime="2015-03-21T07:50:03.000Z" itemprop="datePublished">2015-03-21</time>
+      <a href="/2015/03/21/GitHub和Hexo搭建免费静态Blog基础教程/" class="article-date">
+  	<time datetime="2015-03-21T13:19:31.000Z" itemprop="datePublished">2015-03-21</time>
 </a>
     </div>
   
@@ -206,7 +215,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      今天开博客
+      GitHub和Hexo搭建免费静态Blog基础教程
     </h1>
   
 
@@ -214,6 +223,10 @@
       
       <div class="article-info article-info-post">
         
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/github-Hexo-静态博客/">github   Hexo  静态博客</a></li></ul>
+	</div>
+
         
 
         <div class="clearfix"></div>
@@ -222,7 +235,27 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>我只是实验一下,<br>不要激动哈!<br>以后坚持写就好了，每篇文章都会随时更改的。这只是个开始</p>
+        <p>   先大体写一下步骤，博客也是今天刚搭建的，什么的都没有，就是想改掉自己延<br>的的毛病，废话不多说了。教程如下：</p>
+<p>第一部分  本地建设</p>
+<p>1、安装GIT<br>2、安装 Node.js  (因为HEXO是NODE.js写的)</p>
+<p>  ps：因为要用到 npm命令  所以看看是在环境变量里有 npm命令<br>     如果没有，在Path目录下加入 ;D:\Program Files\nodejs\node_modules\npm<br>3、初始化Hexo,对其进行安装，在gitbash环境中输入   hexo  init<br>4、新版本注意，由于官网的hexo作者，把EJS, Stylus, Marked not built-in anymore从文章中去除了,请手动安装以下插件。<br>   代码如下：<br>      1  npm install hexo-renderer-ejs —save<br>      2  npm install hexo-renderer-stylus —save<br>      3  npm install hexo-renderer-marked —save</p>
+<a id="more"></a>
+<p>5 在本地进行检查网页的动态生成效果执行以下命令，然后再登录  localhost:4000<br>   1 hexo generate   #g为其简写，生成静态页面<br>   2 hexo  server    #s为其简写，启动服务器<br>其他的命令：<br>    hexo n file #new 一个新文件<br>第二部分  部署到github上</p>
+<p>1、注册github  ps：请先去学习github 及git的知识    度娘：廖雪锋<br>2、建立新的仓库 注意该仓库的名字的格式为   username.github.com    username 是你的用户名<br>3、配置hexo文件如下</p>
+<h1 id="Site">Site</h1><p>title: Hexo<br>subtitle:<br>description:<br>author: John Doe<br>language:<br>timezone:</p>
+<h1 id="URL">URL</h1><h2 id="If_your_site_is_put_in_a_subdirectory,_set_url_as_‘http://yoursite-com/child‘_and_root_as_‘/child/‘">If your site is put in a subdirectory, set url as ‘<a href="http://yoursite.com/child" target="_blank" rel="external">http://yoursite.com/child</a>‘ and root as ‘/child/‘</h2><p>url: <a href="http://yoursite.com" target="_blank" rel="external">http://yoursite.com</a><br>root: /<br>permalink: :year/:month/:day/:title/<br>permalink_defaults:</p>
+<h1 id="Directory">Directory</h1><p>source_dir: source<br>public_dir: public<br>tag_dir: tags<br>archive_dir: archives<br>category_dir: categories<br>code_dir: downloads/code<br>i18n_dir: :lang<br>skip_render:</p>
+<h1 id="Writing">Writing</h1><p>new_post_name: :title.md # File name of new posts<br>default_layout: post<br>titlecase: false # Transform title into titlecase<br>external_link: true # Open external links in new tab<br>filename_case: 0<br>render_drafts: false<br>post_asset_folder: false<br>relative_link: false<br>future: true<br>highlight:<br>  enable: true<br>  line_number: true<br>  tab_replace:</p>
+<h1 id="Category_&amp;_Tag">Category &amp; Tag</h1><p>default_category: uncategorized<br>category_map:<br>tag_map:</p>
+<h1 id="Date_/_Time_format">Date / Time format</h1><h2 id="Hexo_uses_Moment-js_to_parse_and_display_date">Hexo uses Moment.js to parse and display date</h2><h2 id="You_can_customize_the_date_format_as_defined_in">You can customize the date format as defined in</h2><h2 id="http://momentjs-com/docs/#/displaying/format/"><a href="http://momentjs.com/docs/#/displaying/format/" target="_blank" rel="external">http://momentjs.com/docs/#/displaying/format/</a></h2><p>date_format: YYYY-MM-DD<br>time_format: HH:mm:ss</p>
+<h1 id="Pagination">Pagination</h1><h2 id="Set_per_page_to_0_to_disable_pagination">Set per_page to 0 to disable pagination</h2><p>per_page: 10<br>pagination_dir: page</p>
+<h1 id="Extensions">Extensions</h1><h2 id="Plugins:_http://hexo-io/plugins/">Plugins: <a href="http://hexo.io/plugins/" target="_blank" rel="external">http://hexo.io/plugins/</a></h2><h2 id="Themes:_http://hexo-io/themes/">Themes: <a href="http://hexo.io/themes/" target="_blank" rel="external">http://hexo.io/themes/</a></h2><p>theme: yilia</p>
+<h1 id="disqus">disqus</h1><p>duoshuo: 33aab5149fb18975b876b45351840d7a</p>
+<h1 id="Deployment">Deployment</h1><h2 id="Docs:_http://hexo-io/docs/deployment-html">Docs: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">http://hexo.io/docs/deployment.html</a></h2><p>deploy:<br>  type: git<br>  repository: git@github.com:netxiaosheng/netxiaosheng.github.io.git<br>  branch: master   </p>
+<p> 最后就是见证奇迹的时刻了。执行如下命令：<br> hexo delpoy</p>
+<p> 然后输入  整个域名就ok啦！</p>
+<p> ps：这是我一天的经验 ，我只是留给自己看的。有很多细节可以一起讨论</p>
+<p> 可以买一个自己的域名，可以换主题，就不用再自己配置插件了。<br> 就怎么多吧。第一次写这个哦。加油</p>
 
       
     </div>
@@ -232,15 +265,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2015/03/21/GitHub和Hexo搭建免费静态Blog基础教程/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption"><</strong>
-      <div class="article-nav-title">
-        
-          GitHub和Hexo搭建免费静态Blog基础教程
-        
-      </div>
-    </a>
   
+    <a href="/2015/03/21/今天开博客/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">今天开博客</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
   
 </nav>
 
@@ -267,7 +296,7 @@
 
 <div class="duoshuo">
 	<!-- 多说评论框 start -->
-	<div class="ds-thread" data-thread-key="今天开博客" data-title="今天开博客" data-url="http://yoursite.com/2015/03/21/今天开博客/"></div>
+	<div class="ds-thread" data-thread-key="GitHub和Hexo搭建免费静态Blog基础教程" data-title="GitHub和Hexo搭建免费静态Blog基础教程" data-url="http://yoursite.com/2015/03/21/GitHub和Hexo搭建免费静态Blog基础教程/"></div>
 	<!-- 多说评论框 end -->
 	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
 	<script type="text/javascript">
